@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Guson Ulysse (Sonny)">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="{% static 'homepage/css/styles.css' %}">
+</head>
+<body onkeydown="runIntro(event)">
+<div class="instructionContainer" id="instructionCon" >Press Enter to call Function "runIntro()"</div>
+<header class="header">
+    <a href="#"  class="name">Guson Ulysse</a>
+
+    <nav class="navbar">
+        <a href="https://docs.google.com/document/d/1bwtSXw-FfODeTM_kKuwxpDj8MkWaQSoZLhwi863AZ8o/edit?usp=sharing"
+           class="list">Resume</a>
+        <a href="https://colab.research.google.com/drive/1Vx90sdC41tB-qXFVG_svyK_OD5E8dfdJ?usp=sharing"
+           class="list">Machine Learning Project</a>
+    </nav>
+
+</header>
+<section class="home">
+<div class="description" id="introContainer">
+    <div class="links">
+        <a href="https://github.com/SonnyGU?tab=repositories"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/gulysse/"><i class='bx bxl-linkedin' ></i></a>
+    </div>
+</div>
+</section>
+<script src="{% static 'homepage/js/script.js' %}"></script>
+</body>
+</html>
