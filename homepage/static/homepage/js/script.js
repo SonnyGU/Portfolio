@@ -1,8 +1,14 @@
 let index = 0;
 function runIntro(){
     const instructionCon = document.getElementById('instructionCon');
-    if(instructionCon){
+    const flashingText = document.getElementById('flashingText');
+    const link = document.getElementById('link');
+    const git = document.getElementById('git');
+    if(instructionCon && flashingText){
         instructionCon.style.display = 'none';
+        flashingText.style.display = 'none';
+        link.style.display = 'inline-flex'
+        git.style.display = 'inline-flex'
     }
     const introText = "But you can call me Sonny, and this is my portfolio. I'm a determined Certified " +
         "Pharmacy Technician/Data " +
