@@ -23,7 +23,7 @@ function runIntro(){
             introContainer.innerHTML += introText.charAt(index);
             index++;
 
-            setTimeout(runIntro, 60)
+            setTimeout(runIntro, 30)
         }
 
     }
