@@ -40,7 +40,7 @@ body{
     position: fixed;
     top: 0;
     left: 0;
-    padding: 20px 10%;
+    padding: 20px 5%;
     display: flex;
     right: 50px;
     z-index: 100;
@@ -49,10 +49,11 @@ body{
     background: rgba(255, 255, 255, 0.1); /* Slight white background */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-bottom-style: double;
+    width: 100%;
 }
 
 .name {
-    font-size: 30px;
+    font-size: 20px;
     color: #fefdff;
     font-weight: 800;
     text-decoration: none;
@@ -63,7 +64,8 @@ body{
     color: #f8f6f8;
     font-weight: 700;
     text-decoration: none;
-    margin-left: 50px;
+    margin-left: 20px;
+    font-size: 14px;
 
 }
 
@@ -126,8 +128,8 @@ body{
     border: 4px solid;
     border-radius: 50%;
     margin-left: 50px;
-    width: 30px;
-    height: 30px;
+    width: 60px;
+    height: 60px;
     display: none;
 }
 
@@ -139,28 +141,32 @@ body{
 }
 
 @media (max-width: 768px) {
-    h1, .slated-name{
-        font-size: 40px;
+    .navbar a, .name {
+        font-size: 14px;
+        margin-left: 10px;
     }
-    
-}
 
-@media (max-width: 768px) {
-    .navbar a {
-        font-size: 18px;
-        margin-left: 20px;
-    }
     .links a{
-        width: 50px;
-        height: 50px;
+        width: 28px;
+        height: 28px;
+    }
+
+    h1, .slated-name, .instructionContainer, .flashing_text {
+        font-size: 22px; /* Reduced font-size */
+    }
+
+    .instructionContainer, .flashing_text {
+        padding: 10px;
+    }
+    .instructionContainer {
+        font-size: 1.5em; /* Adjusted font-size */
+        top: 20%; /* Adjusted position */
+    }
+
+    .flashing_text {
+        font-size: 0.8em; /* Adjusted font-size */
+        top: 40%; /* Adjusted position */
     }
     
 }
 
-@media (max-width: 768px) {
-    .description, .instructionContainer, .flashing_text{
-        padding: 20px;
-        font-size: 18px;
-    }
-    
-}
