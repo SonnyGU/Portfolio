@@ -10,7 +10,7 @@ function runIntro(){
         link.style.display = 'inline-flex'
         git.style.display = 'inline-flex'
     }
-    const introText = "But you can call me Sonny, and this is my portfolio. I'm a determined Certified " +
+    const introText = "But you can call me Sonny. I'm a determined Certified " +
         "Pharmacy Technician/Data " +
         "Coordinator transitioning into a dynamic Software Engineer role, backed by a B.S. in Computer Science. With a " +
         "keen analytical acumen and strong programming skills, I’m ready to contribute significantly to a progressive " +
