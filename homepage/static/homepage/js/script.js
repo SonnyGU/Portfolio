@@ -33,7 +33,9 @@ function runIntro(){
 }
 
 window.addEventListener('keydown', function (e){
-    if(e.key === "Enter"){
-        runIntro();
-    }
+    runIntro()
+});
+
+window.addEventListener('touchstart', function (){
+    runIntro();
 });

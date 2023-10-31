@@ -137,3 +137,30 @@ body{
     box-shadow: #0c010c 0 0 10px;
 
 }
+
+@media (max-width: 768px) {
+    h1, .slated-name{
+        font-size: 40px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .navbar a {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    .links a{
+        width: 50px;
+        height: 50px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .description, .instructionContainer, .flashing_text{
+        padding: 20px;
+        font-size: 18px;
+    }
+    
+}
