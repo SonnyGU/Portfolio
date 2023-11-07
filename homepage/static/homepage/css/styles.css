@@ -60,6 +60,11 @@ body{
     cursor: default;
 }
 
+.name:hover {
+    color: #FFFFFF; /* Color changes to white on hover */
+    transition: color 0.3s ease, font-size 0.3s ease;
+}
+
 .navbar a {
     color: #f8f6f8;
     font-weight: 700;
